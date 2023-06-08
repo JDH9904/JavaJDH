@@ -1,27 +1,28 @@
 package function;
 
 
-
 public class Function1 {
-    public static void baest (){
+    public static void baest() {
         System.out.println("코드1");
         System.out.println("코드2");
         System.out.println("코드3");
     }
 
-    public static int add(int a, int b){
+    public static int add(int a, int b) {
         int sum = a + b;
         return sum;
 
     }
-    private static int test2(){
+
+    private static int test2() {
         return 10;
     }
 
-    private static int A(int x, int y){
-        int gkq = x +y;
+    private static int A(int x, int y) {
+        int gkq = x + y;
         return gkq;
     }
+
     public static void main(String[] args) {
         baest();
         //변수랑 비슷함 동일한 값을 재사용
@@ -34,14 +35,14 @@ public class Function1 {
 
         baest();
 
-        add(5,9);
+        add(5, 9);
         System.out.println();
 
         test2();
 
-        System.out.println(A(20,50));
-
+        System.out.println(A(20, 50));
 
 
     }
 }
+
